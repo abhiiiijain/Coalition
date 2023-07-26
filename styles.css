@@ -1,0 +1,227 @@
+header {
+  display: flex;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+.logo_image {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo_word {
+  flex-wrap: wrap;
+  width: 10px;
+  margin-left: 15px;
+  margin-top: 6px;
+  font-family: 'lato';
+  font-weight: bold;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  /* text-decoration: black; */
+}
+
+.navbar-links {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 0 auto;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links a {
+  margin-left: 50px;
+  text-decoration: underline;
+  font-family: 'lato';
+  font-size: large;
+  color: black;
+}
+
+/* Style for active navbar links */
+.navbar-links a.active {
+  color: black;
+  font-weight: bold;
+}
+
+/* Homepage styles */
+.homepage {
+  height: 100vh;
+  background-image: url("/images/home.png");
+  /* Add background image or content as needed */
+}
+
+/* History section styles */
+.history {
+  height: 100vh;
+  background-size: 100%;
+  background-image: url("/images/peak.jpg");
+  /* Add background image or content as needed */
+}
+
+.heading {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* flex: 50%; */
+}
+
+.number1 {
+  text-decoration: solid;
+  font-family: 'Oswald';
+  font-size: 100px;
+  margin-left: 350px;
+  color: #414f6b;
+}
+
+.name1 {
+  text-decoration: solid;
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-top: 50px;
+  /* margin-left: 5px; */
+  color: #414f6b;
+}
+
+.content1 {
+  font-family: 'lato';
+  font-size: 20px;
+  margin-left: 400px;
+  color: #414f6b;
+  margin-right: 200px;
+}
+
+.number2 {
+  text-decoration: solid;
+  font-family: 'Oswald';
+  font-size: 100px;
+  margin-left: 350px;
+  color: #414f6b;
+}
+
+.name2 {
+  text-decoration: solid;
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-top: 50px;
+  /* margin-left: 5px; */
+  color: #414f6b;
+}
+
+.content2 {
+  font-family: 'lato';
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #414f6b;
+  margin-right: 200px;
+}
+
+
+
+/* Carousel section styles */
+.carousel {
+  height: 100vh;
+  /* Add background image or content as needed */
+}
+
+/* Mountains section styles */
+.mountains {
+  display: flex;
+  justify-content: left;
+  padding-left: 350px;
+  align-items: center;
+  /* height: 100px; */
+  background-color: #404f6c;
+}
+
+.mountain-link {
+  margin: 0 10px;
+  font-family: Oswald;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Team section styles */
+.team {
+  /* height: 100vh; */
+  /* Add background image or content as needed */
+}
+
+.mountain1 {
+  height: 100vh;
+  background-size: 100%;
+  background-image: url("/images/tab1.jpg");
+  /* Add background image or content as needed */
+}
+
+.mountain2 {
+  height: 100vh;
+  background-size: 100%;
+  background-image: url("/images/tab2.jpg");
+  /* Add background image or content as needed */
+}
+
+/* ... Previous styles ... */
+
+/* Hide the team section initially */
+.team.hidden {
+  display: none;
+}
+
+/* Show the image in the team section */
+.team img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ... Remaining styles ... */
+
+
+/* Footer styles */
+footer {
+  height: 100px;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+  /* ... Existing styles ... */
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
+/* ... Remaining styles ... */
