@@ -144,8 +144,22 @@ body {
 
 /* Carousel section styles */
 .carousel {
-  height: 100vh;
-  /* Add background image or content as needed */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 360px;
+}
+
+
+.carousels {
+  display: flex;
+  flex: row;
+  align-items: center;
+}
+.carousel img{
+  width: 200px;
+  padding: 3px;
 }
 
 /* Mountains section styles */
