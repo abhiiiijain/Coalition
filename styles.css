@@ -132,7 +132,8 @@ body {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -157,6 +158,7 @@ body {
   font-family: "lato";
   font-size: 20px;
   align-self: center;
+  padding-left: 50px;
   padding-right: 300px;
   color: #414f6b;
 }
@@ -199,13 +201,42 @@ body {
   display: block;
   margin: 0 auto;
 }
+
 footer {
-  height: 100px;
-  background-color: darkgray;
+  height: 50px;
+  background-color: #404f6c;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer_image {
+  display: flex;
+}
+
+.logof img {
+  width: 50px;
+  color: #5a6c93;
+}
+
+.footer_word {
+  flex-wrap: wrap;
+  width: 100px;
+  margin-left: 15px;
+  margin-top: 6px;
+  font-family: "lato";
+  font-weight: bold;
+  color: #5a6c93;
+}
+
+.copyright {
+  font-family: "lato";
+  color: #5a6c93;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 0 auto;
 }
 
 .navbar {
@@ -343,15 +374,16 @@ footer {
   .dot {
     cursor: pointer;
     height: 8px;
-    width:8px;
+    width: 8px;
     margin: 0 3px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -430,11 +462,39 @@ footer {
 
   footer {
     height: 50px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 30px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    /* width: 100px; */
+    padding-left: px;
+    font-family: "lato";
+    font-size: small;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    font-size: small;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
 
@@ -570,8 +630,9 @@ footer {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -650,11 +711,38 @@ footer {
 
   footer {
     height: 50px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 50px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-family: "lato";
+    font-weight: bold;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
 
@@ -790,8 +878,9 @@ footer {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -870,11 +959,38 @@ footer {
 
   footer {
     height: 50px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 50px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-family: "lato";
+    font-weight: bold;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
 
@@ -1010,8 +1126,9 @@ footer {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -1090,11 +1207,38 @@ footer {
 
   footer {
     height: 50px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 50px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-family: "lato";
+    font-weight: bold;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
 
@@ -1230,8 +1374,9 @@ footer {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -1310,11 +1455,38 @@ footer {
 
   footer {
     height: 50px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 50px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-family: "lato";
+    font-weight: bold;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
 
@@ -1449,8 +1621,9 @@ footer {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-  
-  .active, .dot:hover {
+
+  .active,
+  .dot:hover {
     background-color: #717171;
   }
 
@@ -1519,10 +1692,37 @@ footer {
   }
   footer {
     height: 100px;
-    background-color: darkgray;
+    background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer_image {
+    display: flex;
+  }
+
+  .logof img {
+    width: 50px;
+    color: #5a6c93;
+  }
+
+  .footer_word {
+    flex-wrap: wrap;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 6px;
+    font-family: "lato";
+    font-weight: bold;
+    color: #5a6c93;
+  }
+
+  .copyright {
+    font-family: "lato";
+    color: #5a6c93;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0 auto;
   }
 }
