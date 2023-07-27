@@ -212,23 +212,23 @@ body {
 }
 
 .heading-schedule {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   color: #404f6c;
   padding-top: 10px;
   font-size: 30px;
 }
 
-.location-time{
+.location-time {
   display: flex;
 }
 
 .dates-schedule {
-  font-family: 'Lato';
+  font-family: "Lato";
   color: #404f6c;
 }
 
 .place-schedule {
-  font-family: 'Lato';
+  font-family: "Lato";
   color: #404f6c;
   padding-left: 40px;
 }
@@ -498,27 +498,27 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 15px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     font-size: 10px;
   }
-  
+
   .place-schedule {
     font-size: 10px;
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 20px;
   }
@@ -780,27 +780,27 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 25px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
     font-size: 12px;
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
   }
-  
+
   .place-schedule {
     font-size: 12px;
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 40px;
   }
@@ -1062,28 +1062,28 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 30px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
   }
-  
+
   .place-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 40px;
-  }  
+  }
 
   footer {
     height: 100px;
@@ -1340,29 +1340,29 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 30px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
   }
-  
+
   .place-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 40px;
   }
-    
+
   footer {
     height: 100px;
     background-color: #404f6c;
@@ -1618,28 +1618,28 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 30px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
   }
-  
+
   .place-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 40px;
-  }  
+  }
 
   footer {
     height: 100px;
@@ -1887,29 +1887,29 @@ footer {
     background-color: white;
     padding: 0 20px;
   }
-  
+
   .heading-schedule {
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #404f6c;
     padding-top: 10px;
     font-size: 30px;
   }
-  
-  .location-time{
+
+  .location-time {
     display: flex;
   }
-  
+
   .dates-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
   }
-  
+
   .place-schedule {
-    font-family: 'Lato';
+    font-family: "Lato";
     color: #404f6c;
     padding-left: 40px;
   }
-    
+
   footer {
     height: 100px;
     background-color: #404f6c;
