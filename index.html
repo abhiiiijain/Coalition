@@ -25,7 +25,7 @@
                                         <a href="#history">01.History</a>
                                 </i>
                                 <i>
-                                        <a href="#mountains">02. Team</a>
+                                        <a href="#team">02. Team</a>
                                 </i>
                         </div>
                 </nav>
@@ -58,11 +58,16 @@
                                         <img src="/images/carousel1.jpg" />
                                         <img src="/images/carousel2.jpg" />
                                 </div>
+                                <div style="text-align:center">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                </div>
                         </div>
                 </div>
         </section>
 
-        <section class="team">
+        <section class="team" id="team">
                 <div class="heading">
                         <div class="number2">02.</div>
                         <div class="name2">CLIMB</div>
@@ -75,25 +80,72 @@
                 <!-- Content for the team section goes here -->
         </section>
 
-        <section class="mountains" id="mountains">
-                <!-- Content for the mountain links section goes here -->
-                <a href="#mount1" class="mountain-link" data-image="tab1.jpg">Mountain 1</a>
-                <a href="#mount2" class="mountain-link" data-image="tab2.jpg">Mountain 2</a>
-        </section>
+        <div class="tabs">
+                <section class="mountains">
+                        <!-- Content for the mountain links section goes here -->
+                        <a href="#mount1" class="mountain-link" data-image="tab1.jpg">Mountain 1</a>
+                        <a href="#mount2" class="mountain-link" data-image="tab2.jpg">Mountain 2</a>
+                </section>
 
-        <div>
-                <section class="mountain1" id="mount1">
-                        <div></div>
-                </section>
-                <section class="mountain2" id="mount2">
-                        <div></div>
-                </section>
+                <div>
+                        <section class="mountain1" id="mount1">
+                                <div class="schedule1">
+                                        <div class="heading-schedule">
+                                                SCHEDULE
+                                        </div>
+                                        <div class="location-time">
+                                                <div class="dates-schedule">
+                                                        <p>25 Nov 2016</p>
+                                                        <p>28 Nov 2016</p>
+                                                        <p>18 Dec 2016</p>
+                                                        <p>7 Jan 2017</p>
+                                                </div>
+                                                <div class="place-schedule">
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </section>
+                        <section class="mountain2" id="mount2">
+                                <div class="schedule1">
+                                        <div class="heading-schedule">
+                                                SCHEDULE
+                                        </div>
+                                        <div class="location-time">
+                                                <div class="dates-schedule">
+                                                        <p>17 Nov 2016</p>
+                                                        <p>13 Dec 2016</p>
+                                                        <p>28 Dec 2016</p>
+                                                        <p>9 Feb 2017</p>
+                                                </div>
+                                                <div class="place-schedule">
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                        <p>Vestibulum viverra</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </section>
+                </div>
         </div>
 
         <footer>
-                <!-- Content for the footer goes here -->
+                <div class="footer_image">
+                        <div class="logof">
+                                <img src="/images/logo.png" alt="Logo" />
+                        </div>
+                        <p class="footer_word">LOSANGELES MOUNTAINS</p>
+                </div>
+                <div class="copyright">
+                        <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+                </div>
+                </div=>
         </footer>
-        
+
         <script src="script.js"></script>
         <!-- Add the JS file -->
 </body>

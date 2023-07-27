@@ -1,4 +1,6 @@
 const navbar = document.querySelector(".navbar");
+const historySection = document.querySelector('.history');
+const teamSection = document.querySelector('.team');
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
@@ -7,9 +9,6 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("scrolled");
   }
 });
-
-const historySection = document.querySelector('.history');
-const teamSection = document.querySelector('.team');
 
 // Function to check if an element is in the viewport
 function isInViewport(element) {
@@ -40,26 +39,4 @@ window.addEventListener('scroll', () => {
   } else {
     navbar.querySelector('a[href="#team"]').classList.remove('active');
   }
-});
-
-const teamsSection = document.getElementById('team');
-const toggleTeamButton = document.getElementById('toggleTeamButton');
-const mountainLinks = document.querySelectorAll('.mountain-link');
-
-mountainLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    // Get the image URL from the data attribute
-    const imageURL = link.getAttribute('data-image');
-
-    // Update the image source in the team section
-    const teamImage = teamsSection.querySelector('img');
-    teamImage.src = imageURL;
-
-    // Show the team section
-    teamsSection.classList.remove('hidden');
-  });
-});
-
-toggleTeamButton.addEventListener('click', () => {
-  teamsSection.classList.toggle('hidden');
 });
