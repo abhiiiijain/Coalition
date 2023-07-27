@@ -167,6 +167,7 @@ body {
   display: flex;
   justify-content: left;
   padding-left: 200px;
+  width: 100px;
   align-items: center;
   background-color: #404f6c;
 }
@@ -1291,7 +1292,7 @@ footer {
   .mountains {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 87%;
     justify-content: left;
     padding-left: 150px;
     text-align: center;
@@ -1569,7 +1570,7 @@ footer {
   .mountains {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 87%;
     justify-content: left;
     padding-left: 150px;
     text-align: center;
@@ -1842,6 +1843,7 @@ footer {
   .mountains {
     display: flex;
     justify-content: left;
+    width: 86%;
     padding-left: 200px;
     align-items: center;
     background-color: #404f6c;
