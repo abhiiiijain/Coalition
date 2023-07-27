@@ -51,11 +51,11 @@ body {
   text-decoration: underline;
   font-family: "lato";
   font-size: large;
-  color: black;
+  /* color: black; */
 }
 
 .navbar-links a.active {
-  color: black;
+  /* color: black; */
   font-weight: bold;
 }
 
@@ -200,6 +200,36 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.schedule1 {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.heading-schedule {
+  font-family: 'Oswald';
+  color: #404f6c;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.location-time{
+  display: flex;
+}
+
+.dates-schedule {
+  font-family: 'Lato';
+  color: #404f6c;
+}
+
+.place-schedule {
+  font-family: 'Lato';
+  color: #404f6c;
+  padding-left: 40px;
 }
 
 footer {
@@ -460,6 +490,38 @@ footer {
     margin: 0 auto;
   }
 
+  .schedule1 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+    font-size: 10px;
+  }
+  
+  .place-schedule {
+    font-size: 10px;
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 20px;
+  }
+
   footer {
     height: 50px;
     background-color: #404f6c;
@@ -708,6 +770,38 @@ footer {
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  .schedule1 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #404f6c;
+  }
+  
+  .place-schedule {
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 40px;
   }
 
   footer {
@@ -960,6 +1054,36 @@ footer {
     margin: 0 auto;
   }
 
+  .schedule1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+  }
+  
+  .place-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 40px;
+  }  
+
   footer {
     height: 100px;
     background-color: #404f6c;
@@ -1208,6 +1332,36 @@ footer {
     margin: 0 auto;
   }
 
+  .schedule1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+  }
+  
+  .place-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 40px;
+  }
+    
   footer {
     height: 100px;
     background-color: #404f6c;
@@ -1456,6 +1610,36 @@ footer {
     margin: 0 auto;
   }
 
+  .schedule1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+  }
+  
+  .place-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 40px;
+  }  
+
   footer {
     height: 100px;
     background-color: #404f6c;
@@ -1694,6 +1878,36 @@ footer {
     margin: 0 auto;
   }
 
+  .schedule1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .heading-schedule {
+    font-family: 'Oswald';
+    color: #404f6c;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
+  .location-time{
+    display: flex;
+  }
+  
+  .dates-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+  }
+  
+  .place-schedule {
+    font-family: 'Lato';
+    color: #404f6c;
+    padding-left: 40px;
+  }
+    
   footer {
     height: 100px;
     background-color: #404f6c;
