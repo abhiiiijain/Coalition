@@ -476,6 +476,7 @@ footer {
   .logof img {
     width: 30px;
     color: #5a6c93;
+    padding-top: 5px;
   }
 
   .footer_word {
@@ -524,7 +525,7 @@ footer {
   }
 
   .logo img {
-    width: 90px;
+    width: 50px;
   }
 
   .logo_word {
@@ -710,13 +711,14 @@ footer {
   }
 
   footer {
-    height: 50px;
+    height: 80px;
     background-color: #404f6c;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .footer_image {
     display: flex;
   }
@@ -724,13 +726,14 @@ footer {
   .logof img {
     width: 50px;
     color: #5a6c93;
+    margin-top: 10px;
   }
 
   .footer_word {
     flex-wrap: wrap;
     width: 100px;
-    margin-left: 15px;
-    margin-top: 6px;
+    padding-left: 0px;
+    margin-top: 20px;
     font-family: "lato";
     font-weight: bold;
     color: #5a6c93;
@@ -958,7 +961,7 @@ footer {
   }
 
   footer {
-    height: 50px;
+    height: 100px;
     background-color: #404f6c;
     color: white;
     display: flex;
@@ -978,7 +981,7 @@ footer {
     flex-wrap: wrap;
     width: 100px;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 10px;
     font-family: "lato";
     font-weight: bold;
     color: #5a6c93;
@@ -1206,7 +1209,7 @@ footer {
   }
 
   footer {
-    height: 50px;
+    height: 100px;
     background-color: #404f6c;
     color: white;
     display: flex;
@@ -1226,7 +1229,7 @@ footer {
     flex-wrap: wrap;
     width: 100px;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 15px;
     font-family: "lato";
     font-weight: bold;
     color: #5a6c93;
@@ -1454,7 +1457,7 @@ footer {
   }
 
   footer {
-    height: 50px;
+    height: 100px;
     background-color: #404f6c;
     color: white;
     display: flex;
@@ -1474,7 +1477,7 @@ footer {
     flex-wrap: wrap;
     width: 100px;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 15px;
     font-family: "lato";
     font-weight: bold;
     color: #5a6c93;
@@ -1690,6 +1693,7 @@ footer {
     display: block;
     margin: 0 auto;
   }
+
   footer {
     height: 100px;
     background-color: #404f6c;
@@ -1698,6 +1702,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .footer_image {
     display: flex;
   }
