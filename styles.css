@@ -51,12 +51,6 @@ body {
   text-decoration: underline;
   font-family: "lato";
   font-size: large;
-  /* color: black; */
-}
-
-.navbar-links a.active {
-  /* color: black; */
-  font-weight: bold;
 }
 
 .homepage {
@@ -66,7 +60,7 @@ body {
 
 .history {
   height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-image: url("/images/peak.jpg");
 }
 
@@ -132,7 +126,6 @@ body {
   transition: background-color 0.6s ease;
 }
 
-.active,
 .dot:hover {
   background-color: #717171;
 }
@@ -182,13 +175,13 @@ body {
 
 .mountain1 {
   height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-image: url("/images/tab1.jpg");
 }
 
 .mountain2 {
   height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-image: url("/images/tab2.jpg");
 }
 
@@ -311,7 +304,6 @@ footer {
 
   .logo_word {
     flex-wrap: wrap;
-    /* width: 100px; */
     padding-left: 0px;
     font-family: "lato";
     font-size: small;
@@ -332,27 +324,22 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
-    height: 28vh;
-    background-size: 100%;
+    height: 42vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/home.png");
   }
 
   .history {
-    height: 32vh;
-    background-size: 100%;
+    height: 50vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/peak.jpg");
   }
 
   .sect1 {
-    height: 32vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
   }
@@ -364,7 +351,7 @@ footer {
   .number1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 15px;
+    font-size: 30px;
     justify-content: flex-start;
     padding-left: 20px;
     color: #414f6b;
@@ -373,14 +360,14 @@ footer {
   .name1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 8px;
     color: #414f6b;
   }
 
   .content1 {
     font-family: "lato";
-    font-size: 8px;
+    font-size: 10px;
     flex-grow: 1;
     padding: 0 50px;
     color: #414f6b;
@@ -395,7 +382,7 @@ footer {
   }
 
   .carousel img {
-    width: 60px;
+    width: 80px;
     padding: 5px;
     opacity: 1;
     display: block;
@@ -413,7 +400,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -421,23 +407,23 @@ footer {
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 15px;
+    font-size: 30px;
     justify-content: flex-start;
-    padding-left: 2ch;
+    padding-left: 20px;
     color: #414f6b;
   }
 
   .name2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 8px;
     color: #414f6b;
   }
 
   .content2 {
     font-family: "lato";
-    font-size: 8px;
+    font-size: 10px;
     align-self: center;
     padding-right: 50px;
     color: #414f6b;
@@ -450,7 +436,7 @@ footer {
   .mountains {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 100px;
     justify-content: left;
     padding-left: 0px;
     text-align: center;
@@ -466,16 +452,17 @@ footer {
   }
 
   .mountain1 {
-    height: 22vh;
-    width: 250px;
-    background-size: 100%;
+    height: 305px;
+    width: 460px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab1.jpg");
   }
-
+  
   .mountain2 {
-    height: 22vh;
-    background-size: 100%;
+    height: 305px;
+    width: 460px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab2.jpg");
   }
@@ -544,7 +531,6 @@ footer {
 
   .footer_word {
     flex-wrap: wrap;
-    /* width: 100px; */
     padding-left: px;
     font-family: "lato";
     font-size: small;
@@ -614,27 +600,22 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
-    height: 42vh;
-    background-size: 100%;
+    height: 57vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/home.png");
   }
 
   .history {
-    height: 50vh;
-    background-size: 100%;
+    height: 65vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/peak.jpg");
   }
 
   .sect1 {
-    height: 50vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
   }
@@ -646,7 +627,7 @@ footer {
   .number1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 20px;
+    font-size: 40px;
     justify-content: flex-start;
     padding-left: 50px;
     color: #414f6b;
@@ -655,14 +636,14 @@ footer {
   .name1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 15px;
+    font-size: 30px;
     padding-top: 10px;
     color: #414f6b;
   }
 
   .content1 {
     font-family: "lato";
-    font-size: 10px;
+    font-size: 15px;
     flex-grow: 1;
     padding: 0 50px;
     color: #414f6b;
@@ -677,7 +658,7 @@ footer {
   }
 
   .carousel img {
-    width: 70px;
+    width: 140px;
     padding: 5px;
     opacity: 1;
     display: block;
@@ -695,7 +676,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -703,7 +683,7 @@ footer {
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 20px;
+    font-size: 40px;
     justify-content: flex-start;
     padding-left: 50px;
     color: #414f6b;
@@ -712,14 +692,14 @@ footer {
   .name2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 15px;
+    font-size: 30px;
     padding-top: 10px;
     color: #414f6b;
   }
 
   .content2 {
     font-family: "lato";
-    font-size: 10px;
+    font-size: 12px;
     align-self: center;
     padding-right: 50px;
     color: #414f6b;
@@ -732,7 +712,7 @@ footer {
   .mountains {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 120px;
     justify-content: left;
     padding-left: 0px;
     text-align: center;
@@ -748,16 +728,17 @@ footer {
   }
 
   .mountain1 {
-    height: 48vh;
-    width: 500px;
-    background-size: 100%;
+    height: 57vh;
+    width: 83vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab1.jpg");
   }
-
+  
   .mountain2 {
-    height: 48vh;
-    background-size: 100%;
+    height: 57vh;
+    width: 83vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab2.jpg");
   }
@@ -896,27 +877,22 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
-    height: 57vh;
-    background-size: 100%;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/home.png");
   }
 
   .history {
-    height: 65vh;
-    background-size: 100%;
+    height: 96vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/peak.jpg");
   }
 
   .sect1 {
-    height: 65vh;
+    height: 96vh;
     display: flex;
     flex-direction: column;
   }
@@ -928,7 +904,7 @@ footer {
   .number1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 50px;
+    font-size: 60px;
     justify-content: flex-start;
     padding-left: 50px;
     color: #414f6b;
@@ -937,7 +913,7 @@ footer {
   .name1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 20px;
     color: #414f6b;
   }
@@ -959,7 +935,7 @@ footer {
   }
 
   .carousel img {
-    width: 120px;
+    width: 170px;
     padding: 5px;
     opacity: 1;
     display: block;
@@ -977,7 +953,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -985,7 +960,7 @@ footer {
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 50px;
+    font-size: 60px;
     justify-content: flex-start;
     padding-left: 50px;
     color: #414f6b;
@@ -994,14 +969,14 @@ footer {
   .name2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 20px;
     color: #414f6b;
   }
 
   .content2 {
     font-family: "lato";
-    font-size: 15px;
+    font-size: 20px;
     align-self: center;
     padding-right: 50px;
     color: #414f6b;
@@ -1022,7 +997,6 @@ footer {
   }
 
   .mountain-link {
-    padding: 0;
     font-family: Oswald;
     font-size: 25px;
     text-decoration: none;
@@ -1030,16 +1004,17 @@ footer {
   }
 
   .mountain1 {
-    height: 66vh;
-    width: 100%;
-    background-size: 100%;
+    height: 87vh;
+    width: 98vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab1.jpg");
   }
-
+  
   .mountain2 {
-    height: 66vh;
-    background-size: 100%;
+    height: 87vh;
+    width: 98vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab2.jpg");
   }
@@ -1174,27 +1149,22 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
-    height: 74vh;
-    background-size: 100%;
+    height: 90vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/home.png");
   }
 
   .history {
-    height: 86vh;
-    background-size: 100%;
+    height: 105vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/peak.jpg");
   }
-
+  
   .sect1 {
-    height: 86vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
   }
@@ -1206,7 +1176,7 @@ footer {
   .number1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 60px;
+    font-size: 80px;
     justify-content: flex-start;
     padding-left: 120px;
     color: #414f6b;
@@ -1215,7 +1185,7 @@ footer {
   .name1 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 20px;
     color: #414f6b;
   }
@@ -1237,7 +1207,7 @@ footer {
   }
 
   .carousel img {
-    width: 150px;
+    width: 200px;
     padding: 5px;
     opacity: 1;
     display: block;
@@ -1255,7 +1225,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -1263,7 +1232,7 @@ footer {
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 60px;
+    font-size: 80px;
     justify-content: flex-start;
     padding-left: 120px;
     color: #414f6b;
@@ -1272,7 +1241,7 @@ footer {
   .name2 {
     text-decoration: solid;
     font-family: "Oswald";
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 20px;
     color: #414f6b;
   }
@@ -1308,16 +1277,17 @@ footer {
   }
 
   .mountain1 {
-    height: 86vh;
-    width: 100%;
-    background-size: 100%;
+    height: 118vh;
+    width: 98vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab1.jpg");
   }
-
+  
   .mountain2 {
-    height: 86vh;
-    background-size: 100%;
+    height: 118vh;
+    width: 98vw;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab2.jpg");
   }
@@ -1452,27 +1422,22 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
-    height: 74vh;
-    background-size: 100%;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/home.png");
   }
 
   .history {
-    height: 86vh;
-    background-size: 100%;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/peak.jpg");
   }
 
   .sect1 {
-    height: 86vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
@@ -1515,7 +1480,7 @@ footer {
   }
 
   .carousel img {
-    width: 150px;
+    width: 230px;
     padding: 5px;
     opacity: 1;
     display: block;
@@ -1533,7 +1498,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -1586,16 +1550,17 @@ footer {
   }
 
   .mountain1 {
-    height: 86vh;
+    height: 126vh;
     width: 100%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab1.jpg");
   }
-
+  
   .mountain2 {
-    height: 86vh;
-    background-size: 100%;
+    height: 126vh;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/images/tab2.jpg");
   }
@@ -1732,11 +1697,6 @@ footer {
     color: black;
   }
 
-  .navbar-links a.active {
-    color: black;
-    font-weight: bold;
-  }
-
   .homepage {
     height: 100vh;
     background-image: url("/images/home.png");
@@ -1744,7 +1704,7 @@ footer {
 
   .history {
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("/images/peak.jpg");
   }
 
@@ -1810,7 +1770,6 @@ footer {
     transition: background-color 0.6s ease;
   }
 
-  .active,
   .dot:hover {
     background-color: #717171;
   }
@@ -1843,7 +1802,7 @@ footer {
   .mountains {
     display: flex;
     justify-content: left;
-    width: 86%;
+    width: 100%;
     padding-left: 200px;
     align-items: center;
     background-color: #404f6c;
@@ -1859,13 +1818,13 @@ footer {
 
   .mountain1 {
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("/images/tab1.jpg");
   }
 
   .mountain2 {
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("/images/tab2.jpg");
   }
 

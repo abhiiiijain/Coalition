@@ -40,3 +40,18 @@ window.addEventListener('scroll', () => {
     navbar.querySelector('a[href="#team"]').classList.remove('active');
   }
 });
+
+const mountainLink_1 = document.querySelectorAll('.mountain-link')[0];
+const mountainLink_2 = document.querySelectorAll('.mountain-link')[1];
+
+document.getElementById('mount2').style.display = 'none';
+
+mountainLink_1.addEventListener('click', ()=>{
+    document.getElementById('mount1').style.display = 'block';
+    document.getElementById('mount2').style.display = 'none';
+  })
+  
+  mountainLink_2.addEventListener('click', ()=>{
+    document.getElementById('mount1').style.display = 'none';
+    document.getElementById('mount2').style.display = 'block';
+  })
