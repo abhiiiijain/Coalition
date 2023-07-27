@@ -285,10 +285,6 @@ footer {
     background-color: white;
   }
 
-  .logo_image {
-    display: flex;
-  }
-
   .logo img {
     width: 30px;
   }
@@ -429,10 +425,6 @@ footer {
 
   .navbar.scrolled {
     background-color: white;
-  }
-
-  .logo_image {
-    display: flex;
   }
 
   .logo_word {
@@ -680,52 +672,22 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  header {
-    display: flex;
-  }
-
   .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
     padding: 10px;
     background-color: transparent;
-    transition: background-color 0.3s ease;
   }
 
   .navbar.scrolled {
     background-color: white;
   }
 
-  .logo_image {
-    display: flex;
-  }
-
-  .logo img {
-    width: 50px;
-  }
-
   .logo_word {
-    flex-wrap: wrap;
-    width: 100px;
     padding-left: 0px;
-    font-family: "lato";
     font-weight: 100;
-  }
-
-  .navbar-links {
-    width: 60%;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 0 auto;
   }
 
   .navbar-links a {
     padding: 0 15px;
-    text-decoration: underline;
-    font-family: "lato";
     font-size: medium;
     color: black;
   }
@@ -734,7 +696,6 @@ footer {
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/images/home.png");
   }
 
   .history {
@@ -970,10 +931,6 @@ footer {
 
   .navbar.scrolled {
     background-color: white;
-  }
-
-  .logo_image {
-    display: flex;
   }
 
   .logo img {
@@ -1244,10 +1201,6 @@ footer {
     width: 100%;
     padding: 20px;
     transition: background-color 0.3s ease;
-  }
-
-  .logo_image {
-    display: flex;
   }
 
   .logo img {
