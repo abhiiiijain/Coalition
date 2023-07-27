@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 header {
   display: flex;
@@ -224,7 +224,7 @@ footer {
   flex-wrap: wrap;
   width: 100px;
   margin-left: 15px;
-  margin-top: 6px;
+  margin-top: 15px;
   font-family: "lato";
   font-weight: bold;
   color: #5a6c93;
@@ -1716,7 +1716,7 @@ footer {
     flex-wrap: wrap;
     width: 100px;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 15px;
     font-family: "lato";
     font-weight: bold;
     color: #5a6c93;
