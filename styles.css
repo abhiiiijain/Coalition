@@ -121,6 +121,21 @@ body {
   object-fit: cover;
 }
 
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
 .number2 {
   text-decoration: solid;
   font-family: "Oswald";
@@ -323,6 +338,21 @@ footer {
     opacity: 1;
     display: block;
     object-fit: cover;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width:8px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
   }
 
   .number2 {
@@ -530,6 +560,21 @@ footer {
     object-fit: cover;
   }
 
+  .dot {
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
@@ -733,6 +778,21 @@ footer {
     opacity: 1;
     display: block;
     object-fit: cover;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
   }
 
   .number2 {
@@ -940,6 +1000,21 @@ footer {
     object-fit: cover;
   }
 
+  .dot {
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
@@ -1145,6 +1220,21 @@ footer {
     object-fit: cover;
   }
 
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
   .number2 {
     text-decoration: solid;
     font-family: "Oswald";
@@ -1347,6 +1437,21 @@ footer {
     opacity: 1;
     display: block;
     object-fit: cover;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
   }
 
   .number2 {
