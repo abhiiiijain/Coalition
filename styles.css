@@ -41,11 +41,6 @@ body {
   font-weight: bold;
 }
 
-.navbar.scrolled {
-  /* background-color: white; */
-  /* text-decoration: black; */
-}
-
 .navbar-links {
   width: 60%;
   display: flex;
