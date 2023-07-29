@@ -114,6 +114,13 @@ body {
   opacity: 1;
   display: block;
   object-fit: cover;
+
+}
+.carousel-dot {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(64, 79, 108, 0.5);
 }
 
 .dot {
